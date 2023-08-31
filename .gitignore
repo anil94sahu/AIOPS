@@ -8,6 +8,6 @@
 # next.js
 /.next/
 /out/
-/next.config.js
+
 /dist/
 
