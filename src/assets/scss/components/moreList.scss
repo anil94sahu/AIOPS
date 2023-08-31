@@ -1,0 +1,32 @@
+.more-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .more-vertical-item{
+        display: flex;
+        align-items: center;
+        min-height: 2rem;
+        cursor: pointer;
+        &:hover{
+            .more-vertical-item-icon{
+                color: $primary;
+            }
+            .more-vertical-item-text{
+                color: $primary;
+            }
+        }
+        .more-vertical-item-icon{
+            display: flex;
+            flex-direction: column;
+            margin-right: 0.5rem;
+            color: $bluegray;
+        }
+        .more-vertical-item-text{
+            display: flex;
+            color: $gray900;
+            font-size: 0.875rem;
+            font-family: $fontGeneralsans500;
+            font-weight: 500;
+        }
+    }
+}

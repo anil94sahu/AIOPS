@@ -1,0 +1,34 @@
+@import "./theme/var";
+@import "./theme/grid.scss";
+@import "./theme/style.scss";
+
+// components
+@import "./components/button/index.scss";
+@import "./components/include/layout.scss";
+@import "./components/include/header.scss";
+@import "./components/cardTable.scss";
+@import "./components/statusCard.scss";
+@import "./components/modal.scss";
+@import "./components/modal1.scss";
+@import "./components/input/checkbox.scss";
+@import "./components/iconContentCard.scss";
+@import "./components/input/index.scss";
+@import "./components/dropdown.scss";
+@import "./components/moreList.scss";
+@import "./components/avatartooltip.scss";
+@import "./components/iconTextNumberCard.scss";
+@import "./components/commentsCard.scss";
+@import "./components/profileDetailsCard.scss";
+@import "./components/labelTextItem.scss";
+@import "./components/breadcrumb.scss";
+@import "./components/card.scss";
+@import "./components/serviceVerifiedItem.scss";
+@import "./components/tooltip.scss";
+@import "./components/navTab.scss";
+@import "./components/accountTypeRadio.scss";
+@import "./components/signLayout/index.scss";
+@import "./components/Loader/index.scss";
+@import "./components/invoiceCard.scss";
+
+// pages
+@import "./pages/customerData.scss";

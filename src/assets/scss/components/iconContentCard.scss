@@ -1,0 +1,47 @@
+.icon-text-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 1.875rem;
+    align-items: center;
+    .itc-icon{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1.5rem;
+        color: $primary;
+        &.icon-bg{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 5.25rem;
+            height: 5.25rem;
+            border-radius: 50%;
+            background-color: $light;
+            color: $gray800;
+        }
+    }
+    .itc-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .action-button{
+        & > * {
+            margin-right: 1.5rem;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        .btn{
+            min-width: 7.75rem;
+            padding: 0.75rem 1rem;
+            height: 2.75rem;
+            border-radius: 3px;
+            font-family: $fontGeneralsans500;
+            font-weight: 500;
+            font-size: 0.875rem;
+        }
+    }
+}

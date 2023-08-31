@@ -1,0 +1,46 @@
+.profile-details-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .pddp-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 1rem;
+        .pddp-db{
+            display: flex;
+            align-items: center;
+            .pddp-img{
+                display: flex;
+                flex-direction: column;
+                margin-right: 0.5rem;
+                width: 2.75rem;
+                height: 2.75rem;
+            }
+            .pddp-name{
+                font-size: 1rem;
+                font-family: $fontGeneralsans600;
+                font-weight: 600;
+                color: $primary;
+            }
+        }
+        .pddp-ticket{
+            display: flex;
+            align-items: center;
+            .pddp-ticket-text{
+                font-size: 0.875rem;
+                font-weight: 500;
+                font-family: $fontGeneralsans500;
+                color: $gray800;
+                margin-right: 0.25rem;
+            }
+            .pddp-ticket-link{
+                font-size: 0.875rem;
+                font-weight: 600;
+                font-family: $fontGeneralsans600;
+                color: $lightseagreen500;
+            }
+        }
+    }
+}

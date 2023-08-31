@@ -1,0 +1,45 @@
+.icont-text-number-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+    .itn-main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: $white;
+        border-radius: 0.375rem;
+        padding: 1.125rem;
+        .itn-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            margin-right: 0.75rem;
+            background-color: $light;
+            color: $lightseagreen500;
+        }
+        .itn-content{
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 3.5rem);
+            .itn-content-text{
+                color: $primary;
+                font-size: 1rem;
+                font-family: $fontGeneralsans500;
+                font-weight: 500;
+                margin-bottom: 0;
+            }
+            .itn-content-number{
+                color: $black700;
+                font-size: 1.5rem;
+                font-family: $fontGeneralsans600;
+                font-weight: 600;
+                margin-bottom: 0;
+
+            }
+        }
+    }
+}

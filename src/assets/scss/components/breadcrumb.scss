@@ -1,0 +1,31 @@
+.breadcrumb-wrapper{
+    display: flex;
+    align-items: center;
+    .breadcrumb-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .breadcrumb-list-item{
+            font-size: 1.25rem;
+            font-family: $fontGeneralsans600;
+            font-weight: 600;
+            color: $black700;
+            margin-bottom: 0;
+            a{
+                color: $bluegray;
+            }
+            &:first-child{
+                &::before{
+                    content: none;
+                }
+            }
+            &::before{
+                content: '>';
+                margin-left: 0.25rem;
+                margin-right: 0.25rem;
+            }
+        }
+    }
+}

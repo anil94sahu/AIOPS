@@ -1,0 +1,130 @@
+.btn{
+    border-radius: 3px;
+    padding: 0.875rem 1.125rem;
+    font-family: $fontGeneralsans500;
+    font-weight: 500;
+    border: 1px solid transparent;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    height: 2.75rem;
+    cursor: pointer;
+    &.signin-btn {
+        border-radius: .375rem;
+       padding: 1.125rem 1.625rem;
+       border: 1px solid transparent;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       text-decoration: none;
+       font-size: .875rem;
+       line-height: 1.125rem;
+       height: 3.4375rem;
+       cursor: pointer;
+       font-family: GeneralSans-Semibold;
+       font-weight: 600;
+     }
+    .btn-icon-right{
+        display: flex;
+        margin-left: 1rem;
+    }
+    .btn-icon-left{
+        display: flex;
+        margin-right: 0.375rem;
+    }
+    &.btn-small{
+        padding: 0.375rem 1.5rem;
+        height: 2.125rem;
+        font-size: 0.875rem;
+        font-family: $fontGeneralsans600;
+        font-weight: 600;
+    }
+    &.btn-primary{
+        background-color: $primary;
+        color: $white;
+        &.btn-outline{
+            background-color: transparent;
+            border-color: $primary;
+            color: $primary;
+        }
+        &:disabled{
+            opacity: 0.5;
+        }
+    }
+    &.btn-white{
+        background-color: $white;
+        color: $primary;
+        &.btn-outline{
+            background-color: transparent;
+            border-color: $primary;
+            color: $primary;
+        }
+        &:disabled{
+            opacity: 0.5;
+        }
+    }
+    &.btn-danger{
+        background-color: $danger200;
+        color: $white;
+        &.btn-outline{
+            background-color: transparent;
+            border-color: $danger200;
+            color: $primary;
+        }
+        &:disabled{
+            opacity: 0.5;
+        }
+    }
+    &.btn-info{
+        background-color: $lightseagreen400;
+        color: $white;
+        &.btn-outline{
+            background-color: transparent;
+            border-color: $lightseagreen400;
+            color: $lightseagreen400;
+        }
+        &:disabled{
+            opacity: 0.5;
+        }
+    }
+    &.btn-gray{
+        background-color: $gray700;
+        color: $black700;
+        &.btn-outline{
+            background-color: transparent;
+            border-color: $gray700;
+            color: $gray700;
+        }
+        &:disabled{
+            opacity: 0.5;
+        }
+    }
+    &.btn-link{
+        background-color: transparent;
+        padding: 0;
+        height: auto;
+    }
+    &.btn-link-white{
+        background-color: transparent;
+        padding: 0;
+        height: auto;
+        color: $white;
+    }
+    &.btn-link-danger{
+        background-color: transparent;
+        padding: 0;
+        height: auto;
+        color: $danger500;
+    }
+    &.btn-link-info{
+        background-color: transparent;
+        padding: 0;
+        height: auto;
+        color: $info;
+    }
+}

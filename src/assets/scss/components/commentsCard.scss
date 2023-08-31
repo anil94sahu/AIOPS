@@ -1,0 +1,52 @@
+.comment-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .legend-title{
+        margin-bottom: 0.5rem;
+        font-size: 0.875rem;
+        font-family: $fontGeneralsans600;
+        font-weight: 600;
+        color: $black700;
+    }
+    .comment-item{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+        .comment-item-by{
+            display: flex;
+            align-items: center;
+            font-size: 0.75rem;
+            font-family: $fontGeneralsans500;
+            font-weight: 500;
+            line-height: 1rem;
+            margin-bottom: 0.5rem;
+            color: $gray800;
+            span{
+                margin-right: 0.25rem;
+                color: $gray800;
+            }
+            .comment-item-link{
+                color: $info;
+            }
+        }
+        .comment-item-content{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .comment-item-desc{
+                font-family: $fontGeneralsans500;
+                font-weight: 500;
+                font-size: 0.875rem;
+                color: $dark100;
+            }
+            .comment-item-ago{
+                font-size: 0.75rem;
+                font-family: $fontGeneralsans400;
+                font-weight: 400;
+                color: $gray800;
+            }
+        }
+    }
+}

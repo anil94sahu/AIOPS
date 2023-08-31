@@ -1,0 +1,28 @@
+.service-verify-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid $bluegray;
+    height: 2.5rem;
+    .svi-img{
+        display: flex;
+        max-height: 1.125rem;
+    }
+    .svi-text{
+        display: flex;
+        font-size: 0.875rem;
+        font-family: $fontGeneralsans500;
+        font-weight: 500;
+        color: $dark100;
+    }
+    .svi-verified{
+        display: flex;
+        .tooltip-wrapper{
+            .tooltip-box{
+                color: $success;
+            }
+        }
+    }
+}
